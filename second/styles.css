@@ -399,13 +399,6 @@ input[type=number]{
   background-color: var(--blue-tinge);
   
 }
-.page-count{
-  text-align: center;
-  
-}
-.page-count a:hover{
-  color:var(--blue-tinge);
-}
 form{
   margin-top: 2rem;
 }

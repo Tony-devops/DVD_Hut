@@ -278,7 +278,7 @@ http.open('get', 'products.json', true);
 http.send();
 http.onload = function(){
    if(this.readyState == 4 && this.status == 200){
-      let products__movies = JSON.parse(this.responseText).slice(0,15);
+      let products__movies = JSON.parse(this.responseText).reverse();
       let output = "";
       for(let item of products__movies){
         
