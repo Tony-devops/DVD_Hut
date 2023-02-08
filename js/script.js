@@ -8,7 +8,8 @@
   const checkoutBtn = document.querySelector("#checkout-btn");
   const totalPriceContainer = document.querySelector("#total-price");
 
- 
+ window.onload = () => {
+  filterProduct("All");
 };
 
    
@@ -350,5 +351,4 @@ document.getElementById("search").addEventListener("click", () => {
   });
 });
 
- window.onload = () => {
-  filterProduct("All");
+ 
